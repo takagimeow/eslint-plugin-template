@@ -38,7 +38,7 @@
   "peerDependencies": {
     "eslint": ">=7"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@typescript-eslint/utils": "6.17.0",
     "ts-api-utils": "1.0.3"
