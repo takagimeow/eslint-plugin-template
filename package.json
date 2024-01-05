@@ -10,11 +10,11 @@
   "author": "takagimeow",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -b tsconfig.build.json",
     "lint": "npm-run-all \"lint:*\"",
     "lint:eslint-docs": "npm-run-all \"update:eslint-docs -- --check\"",
     "lint:js": "eslint .",
-    "test": "mocha tests --recursive",
+    "test": "jest",
     "update:eslint-docs": "eslint-doc-generator"
   },
   "devDependencies": {
