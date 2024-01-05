@@ -1,48 +1,45 @@
 # eslint-plugin-template
 
-ESLintプラグインを実装するために必要な足場を提供するためのテンプレートプロジェクトです
+ESLint プラグインを実装するために必要な足場を提供するためのテンプレートプロジェクトです
 
-## Installation
+## インストール
 
-You'll first need to install [ESLint](https://eslint.org/):
+まず最初に、[ESLint](https://eslint.org/)をインストールする必要があります：
 
 ```sh
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-template`:
+次に、`eslint-plugin-template`をインストールします：
 
 ```sh
 npm install eslint-plugin-template --save-dev
 ```
 
-## Usage
+## 使用方法
 
-Add `template` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
-
-```json
-{
-    "plugins": [
-        "template"
-    ]
-}
-```
-
-
-Then configure the rules you want to use under the rules section.
+`.eslintrc`設定ファイルのプラグインセクションに`template`を追加します。`eslint-plugin-`プレフィックスは省略できます：
 
 ```json
 {
-    "rules": {
-        "template/rule-name": 2
-    }
+  "plugins": ["template"]
 }
 ```
 
-## Rules
+次に、ルールセクションで使用したいルールを設定します。
+
+```json
+{
+  "rules": {
+    "template/rule-name": 2
+  }
+}
+```
+
+## ルール
 
 <!-- begin auto-generated rules list -->
+
 TODO: Run eslint-doc-generator to generate the rules list.
+
 <!-- end auto-generated rules list -->
-
-
