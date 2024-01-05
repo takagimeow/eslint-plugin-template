@@ -13,7 +13,7 @@
     "build": "tsc -b tsconfig.build.json",
     "lint": "npm-run-all \"lint:*\"",
     "lint:eslint-docs": "npm-run-all \"update:eslint-docs -- --check\"",
-    "lint:js": "eslint .",
+    "lint:ts": "eslint src/**/*.ts",
     "test": "jest",
     "update:eslint-docs": "npm run build && eslint-doc-generator"
   },
