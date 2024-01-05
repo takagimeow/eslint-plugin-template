@@ -8,8 +8,7 @@
     "eslint-plugin"
   ],
   "author": "takagimeow",
-  "main": "./lib/index.js",
-  "exports": "./lib/index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
     "lint": "npm-run-all \"lint:*\"",
